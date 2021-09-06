@@ -1,0 +1,140 @@
+body{
+    overflow-x:hidden ;
+}
+header,main,footer,body{
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    flex-direction:row; 
+    justify-content: center;  
+    align-items: stretch;
+    margin: 0px;
+}
+
+.logo{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.img-logo{
+    margin-left: min(20px,1.38vw);
+    width: 100px;
+    height: 99.47px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app-area{
+    width: 100vw;
+    max-width: 1440px;
+    height: 42.36vw;
+    max-height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1,h2,li,p,button,.footer-icon,.footer-icon{
+    font-family: 'Nunito', sans-serif !important;
+}
+
+h1{
+    color: #FFFFFF !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+button{
+    max-width: 182px !important;
+    max-height: 55px !important;
+    background: rgba(255, 255, 255, 0.75) !important;
+    border: 1px solid #000000 !important;
+    box-sizing: border-box !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 20px !important;
+    font-weight: bold  !important;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255,0.9) !important;
+}
+
+div{
+    position: absolute;
+    max-height: 700px;
+    width: 100vw;
+    height: 48.61vw;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(248deg, #F81414 0%, #EE82EE 98.21%);
+    z-index: 0;
+}
+
+.img-logo,button,h1{
+    z-index: 1;
+}
+
+.cor-gerada{
+    color: #FFFFFF !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+article{
+    width: 90.27vw !important;
+    max-width: 1300px !important;
+}
+
+em{
+	font-style: normal !important;
+}
+
+p{
+    width: 100% !important;
+    text-indent: min(10px,0.69vw) !important;
+}
+
+
+li,p,.titulo-artigo,button{
+    color: #47404F !important;
+}
+
+em,.titulo-artigo,.cor-gerada,h1{
+    font-weight: bold !important;
+}
+
+footer{
+    background: #000000 !important;
+    color: white !important;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .app-area{
+        height: min(63.12vw,63.12vw);
+    }
+    div{
+        height: min(75vw,75vh);
+    }
+}
+
+@media screen and (max-width:767px){
+    .app-area{
+        height: min(100vw,100vh);
+    }
+    div{
+        height: min(125vw,125vh);
+    }
+}
+

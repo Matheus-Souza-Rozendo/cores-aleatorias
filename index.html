@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Gerador de cores aleatórias, fornece o resultado b rgb">
+	<meta name="keywords" content="cores, significado das cores, cor, cor aleatória, cores aleatórias,rgb,
+	codigo rgb,codigo hexadecimal, sensações">
+	<meta name="author" content="Matheus Souza Rozendo">
+	<title>Gerador de Cores Aleatórias</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="shortcut icon" href="imagens/matheus_logo.png" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<section class="logo"><img class="img-logo" src="imagens/matheus_logo.png" alt="Logo do site b formato de M">
+		</section>
+	</header>
+	<main>
+		<div></div>
+		<section class="app-area">
+			<h1 class="text-center">Gerador de cores aleatórias</h1>
+			<button class="btn btn-lg" onclick="geraCor()"> Gerar Cor</button>
+			<h2 class="cor-gerada h1" id="cor-gerada"></h2>
+		</section>
+		<article class="my-3 p-1">
+			<h2 class="titulo-artigo w-100">SIGNIFICADO DAS CORES</h2>
+			<p>As cores que enxergamos são resultado de como um objeto reflete o raio de luz que incidiu sobre ele.
+				Nossos
+				olhos captam as ondas eletromagnéticas que são refletidas e dependendo dos seus comprimentos de onda,
+				vemos
+				cores diferentes. No nosso cérebro,<em> as cores podem despertar certas sensações</em> e por isso
+				as cores têm significados diferentes.</p>
+			<ul>
+				<li><em>Vermelho :</em> Vermelho é a cor da energia, paixão, ação, ambição e determinação. É
+					também a cor da raiva e da paixão sexual.
+				</li>
+				<li><em>Laranja:</em> Laranja é a cor da comunicação social e do otimismo. De um significado de
+					cor negativa também é um sinal de pessimismo e superficialidade.
+				</li>
+				<li><em>Amarelo:</em> Amarelo é a cor da mente e do intelecto. É otimista e alegre. No entanto,
+					também pode sugerir impaciência, crítica e covardia.
+				</li>
+				<li><em>Verde :</em> Verde é a cor do equilíbrio e do crescimento. Pode significar tanto
+					autossuficiência como positivo e possessividade como negativo.
+				</li>
+				<li><em>Azul :</em> Azul é a cor da confiança e da paz. Pode sugerir lealdade e integridade, bem
+					como conservadorismo e frigidez.</li>
+				<li><em>Índigo :</em> Índigo é a cor da intuição. No significado de cores, pode significar
+					idealismo e estrutura, além de ritual e viciante.</li>
+				<li><em>Roxo :</em> Roxo é a cor da imaginação. Pode ser criativo e individual ou imaturo e
+					pouco prático.</li>
+				<li><em>Turquesa :</em> O significado da cor turquesa é comunicação e clareza de espírito.
+					Também pode ser impraticável e idealista.</li>
+				<li><em>Rosa :</em> A psicologia da cor rosa é amor incondicional e carinho. O rosa também pode
+					ser imaturo, bobo e feminino.</li>
+				<li><em>Magenta :</em>No significado de cores, magenta é uma cor de harmonia universal e
+					equilíbrio emocional. É espiritual, mas prático, estimulando o bom senso e uma visão
+					equilibrada da vida.
+				</li>
+				<li><em>Marrom :</em> A cor marrom é uma cor amigável, porém séria, realista, que se relaciona
+					com segurança, proteção, conforto e riqueza material.
+				</li>
+				<li><em>Cinza :</em> O cinza é a cor do compromisso - sendo nem preto nem branco, é a transição
+					entre duas não cores. Não tem emoção, é desapegado e pode ser indeciso.
+				</li>
+				<li><em>Prata :</em> A prata tem uma energia feminina; está relacionado com a lua e a vazante e a
+					vazante das marés - é fluido, bocional, sensível e misterioso.
+				</li>
+				<li><em>Ouro :</em> O ouro é a cor do sucesso, da realização e do triunfo. Associada à abundância
+					e prosperidade, luxo e qualidade, prestígio e sofisticação, valor e elegância, a psicologia da
+					cor do ouro implica riqueza, riqueza material e extravagância.
+				</li>
+				<li><em>Branco :</em> O branco é a cor mais completa e pura, a cor da perfeição. O significado
+					da cor do branco é pureza, inocência, integridade e perfeição.
+				</li>
+				<li><em>Preto :</em> Preto é a cor do oculto, do secreto e do desconhecido, criando um ar de
+					mistério. Ele mantém as coisas engarrafadas por dentro, escondidas do mundo.
+				</li>
+			</ul>
+		</article>
+	</main>
+	<footer class="container-fluid pt-2" id="footer">
+		<section class="row">
+			<address class="col-sm-10 col-md-8 col-lg-4 col-xl-4">
+				<section class="w-100 my-1">
+					<img src="imagens/zap.svg" alt="logo whatsapp">
+					<span>&nbsp +55 11 993260-9702</span>
+				</section>
+				<section class="w-100 my-1">
+					<img src="imagens/gmail.svg" alt="logo gmail">
+					<span> &nbsp matheusrozendo234674@gmail.com</span>
+				</section>
+				<section class="w-100">
+					<span> Autor: Matheus Souza Rozendo</span>
+				</section>
+		</section>
+		</address>
+		</section>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+		crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
