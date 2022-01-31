@@ -1,3 +1,8 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/Matheus-Souza-Rozendo/cores-aleatorias) 
+![GitHub](https://img.shields.io/github/license/Matheus-Souza-Rozendo/cores-aleatorias)
+![GitHub followers](https://img.shields.io/github/followers/Matheus-Souza-Rozendo?style=social)
+![GitHub language count](https://img.shields.io/github/languages/count/Matheus-Souza-Rozendo/cores-aleatorias)
+![GitHub top language](https://img.shields.io/github/languages/top/Matheus-Souza-Rozendo/cores-aleatorias)
 # Cores Aleatórias
 Gerador de cores aleatórias no formato RGB
 ## Como funciona ?
